@@ -1,0 +1,69 @@
+{
+  "name": "point-hub-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "custom": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ./ --ext .js",
+    "lint:fix": "eslint --fix ./ --ext .js"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "NODE_ENV=production lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thanhnguyen2195@bitbucket.org/vmodev/point-hub-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vmodev/point-hub-frontend#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "jw-react-pagination": "^1.1.0",
+    "next": "^8.1.1-canary.57",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "rc-pagination": "^1.20.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-slick": "^0.24.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "*",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "*",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "^7.14.2",
+    "husky": "^3.0.1",
+    "lint-staged": "^9.2.1",
+    "prettier": "*",
+    "pretty-quick": "^1.11.1"
+  }
+}

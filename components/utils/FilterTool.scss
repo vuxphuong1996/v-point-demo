@@ -1,0 +1,24 @@
+.filterTool {
+  position: relative;
+
+  &__label {
+    color: #8a97ac;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  &__select {
+    height: 35px;
+    width: 170px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d9dee5;
+    color: #8a97ac;
+    font-size: 13px;
+    line-height: 14px;
+    box-shadow: none;
+    padding: 0px 12px;
+    appearance: none;
+  }
+}

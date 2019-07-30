@@ -1,0 +1,29 @@
+.sectionHeading {
+  display: flex;
+  align-items: center;
+}
+
+.sectionHeading__title {
+  color: #fa7020;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding-left: 55px;
+  position: relative;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sectionHeading__title::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 95px;
+  background-color: #fa7020;
+  left: 0;
+  top: 0;
+}

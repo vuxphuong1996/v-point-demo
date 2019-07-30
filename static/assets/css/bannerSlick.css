@@ -1,0 +1,56 @@
+.banner .slick-dots {
+  position: absolute;
+  bottom: 24%;
+  right: 40px;
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 110px;
+}
+
+.banner .slick-dots li button {
+  padding: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 0;
+  line-height: 0;
+  margin: 10px auto;
+  outline: none;
+}
+
+.banner .slick-dots li.slick-active {
+  background-color: #f16e24;
+  height: 30px;
+  width: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.banner .slick-dots li.slick-active button {
+  display: none;
+}
+
+.banner .slick-arrow {
+  display: none !important;
+}
+
+.banner .slick-slider,
+.banner .slick-list,
+.banner .slick-list * {
+  height: 97%;
+}
+
+/* .banner .slick-slider img {
+  object-fit: cover;
+} */
+
+/* .banner .slick-list {
+  height: 100%;
+}
+
+.banner .slick-track {
+  height: 100%;
+} */

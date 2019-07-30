@@ -1,0 +1,54 @@
+.header {
+  padding: 0.5rem 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menuOne li {
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.menuOne li a {
+  color: #4b3c50;
+}
+
+.menuOne li:first-child {
+  border-right: 1px solid #999;
+}
+
+.menuTwo li {
+  margin: 0 13px;
+  padding: 23px 0;
+}
+
+.menuTwo li:hover {
+  color: #4b3c50;
+}
+
+.active {
+  border-bottom: 2px solid #824198;
+}
+
+.menuTwo li a {
+  text-transform: uppercase;
+  color: #4b3c50;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuTwo li:hover a {
+  color: #824198;
+}

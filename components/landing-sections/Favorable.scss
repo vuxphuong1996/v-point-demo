@@ -1,0 +1,29 @@
+.favorableSlider {
+  padding-left: 40px;
+}
+
+.favItem {
+  width: 430px !important;
+  margin-right: 40px;
+  &__bottom {
+    padding-top: 20px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    height: 52px;
+    overflow: hidden;
+    a {
+      text-decoration: none;
+      color: #4B3C50;
+      &:hover {
+        color: #FA7020;
+      }
+    }
+  }
+}
+
+.favItem__img {
+  width: 100%;
+}

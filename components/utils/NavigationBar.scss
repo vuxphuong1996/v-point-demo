@@ -1,0 +1,27 @@
+.navigation {
+  background: linear-gradient(135.4deg, #582a66 0%, #7d2265 51.72%, #ae1663 100%);
+  padding-top: 14px;
+
+  &__path {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  i {
+    padding-right: 5px;
+    color: #ffff !important;
+    opacity: 0.75;
+  }
+
+  &__address {
+    padding-right: 5px;
+    color: #ffff !important;
+    opacity: 0.75;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}

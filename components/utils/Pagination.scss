@@ -1,0 +1,20 @@
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+  }
+
+  & .pagination li.active a {
+    color: white;
+    background-color: #ae1663;
+    border: none;
+  }
+}

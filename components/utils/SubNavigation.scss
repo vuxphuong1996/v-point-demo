@@ -1,0 +1,31 @@
+.subNavigation {
+  margin-top: 23px;
+  &__link {
+    opacity: 0.75;
+    color: #ffffff !important;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 15px;
+    display: inline-block;
+
+    &--active {
+      border-bottom: 3px solid #fa7020;
+      opacity: 1;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    &:hover {
+      opacity: 1;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    &:first-of-type {
+      margin-right: 40px;
+    }
+  }
+}
